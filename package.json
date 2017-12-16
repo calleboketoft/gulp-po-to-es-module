@@ -1,0 +1,26 @@
+{
+  "name": "@calle/gulp-po-to-es-module",
+  "version": "1.0.0",
+  "description": "Convert .po file to ESModule",
+  "main": "gulp-po-to-es-module.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gulp"
+  ],
+  "author": "Carl-Ola Boketoft",
+  "license": "MIT",
+  "dependencies": {
+    "gettext-parser": "1.3.0",
+    "through2": "2.0.3"
+  },
+  "devDependencies": {
+    "gulp": "3.9.1",
+    "gulp-rename": "1.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/calleboketoft/gulp-po-to-esm.git"
+  }
+}
